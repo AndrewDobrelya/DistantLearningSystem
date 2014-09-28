@@ -1,0 +1,179 @@
+﻿@{
+    ViewBag.Title = "Энциклопедия";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <script language="javascript" type="text/javascript" src="../../Scripts/Arbor/jquery-1.6.1.min.js"></script>
+    <script language="javascript" type="text/javascript">
+        function handleClick() {
+            document.getElementById('follow').checked = false;
+            if (document.getElementById('linke').checked == true) {
+                document.getElementById('follow').disabled = true;
+            }
+            else {
+                document.getElementById('follow').disabled = false;
+            }
+        }
+    </script>
+    <script language="javascript" type="text/javascript" src="../../Scripts/Arbor/arbor.js"></script>
+    <script language="javascript" type="text/javascript" src="../../Scripts/Arbor/arbor-tween.js"></script>
+    <script language="javascript" type="text/javascript" src="../../Scripts/Arbor/graphics.js"></script>
+    <script language="javascript" type="text/javascript" src="../../Scripts/Arbor/renderer.js"></script>
+
+    <style>
+        .togglebox input {
+            display: none;
+        }
+
+        .togglebox {
+            display: inline-block;
+            border: 1px solid #BBB;
+            width: 90px;
+            height: 30px;
+            position: relative;
+            border-radius: 20px;
+            color: #FFF;
+            font-weight: bold;
+            overflow: hidden;
+            box-shadow: 0 1px 0 #CCC;
+        }
+
+            .togglebox label {
+                width: 200%;
+                height: 100%;
+                line-height: 30px;
+                border-radius: 0.4em;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 1;
+                font-size: 1.1em;
+                cursor: pointer;
+                -webkit-transition: height 0.12s;
+                -moz-transition: height 0.12s;
+                transition: height 0.12s;
+            }
+
+            .togglebox span {
+                position: absolute;
+                right: -100px;
+            }
+
+            .togglebox label::after {
+                content: 'ON';
+                width: 74px;
+                float: left;
+                margin-right: -16px;
+                padding-right: 13px;
+                text-align: center;
+                background: #13E27F;
+                text-shadow: 0 -1px 0px #093B5C;
+                box-shadow: 0 4px 5px -2px rgba(0,0,0,0.3) inset;
+            }
+
+            .togglebox label b {
+                display: block;
+                height: 100%;
+                width: 30px;
+                float: left;
+                position: relative;
+                z-index: 1;
+                border: 1px solid #AAA;
+                background: #F6F6F6;
+                box-shadow: 0 4px 0 -2px #F1F1F1 inset, 0 2em 2em -2em #AAA inset, 0 0 2px rgba(0,0,0,.5);
+                border-radius: 20px;
+            }
+
+            .togglebox label:hover b {
+                background: #E5E5E5;
+            }
+
+            .togglebox label::before {
+                content: 'OFF';
+                width: 74px;
+                float: left;
+                margin-left: -15px;
+                padding-left: 13px;
+                text-align: center;
+                background: #E70A25;
+                box-shadow: 0 4px 5px -2px rgba(0,0,0,0.3) inset;
+            }
+
+            .togglebox input:checked ~ label {
+                left: -60px;
+            }
+    </style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="~/Images/Icons/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="~/Images/Icons/favicon.png" type="image/x-icon" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/bundles/Main/SharedStyles")
+    @Styles.Render("~/bundles/ControlPanelStyles")
+    @RenderSection("Styles", false)
+</head>
+    <body>
+        <header class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a id="logo" class="pull-left" href="/"></a>
+                    <div class="nav pull-right" style="margin-top:0">
+                        <ul class="nav">
+                            <li><a href="@Url.Action("Login","User")">Вход</a></li>
+                            <li><a href="@Url.Action("Index","Home")">Главная</a></li>
+                            <li><a href="@Url.Action("Concepts","Search")">Понятия</a></li>
+                            <li><a href="@Url.Action("Sources","Search")">Источники</a></li>
+                            <li><a href="@Url.Action("Classifications","Search")">Классификации</a></li>
+                            <li><a href="@Url.Action("Index","Arbor")">Дерево</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </header>       
+        <!-- /#wrapper -->
+        <div id="wrapper">
+            <!-- /.navbar-static-top -->
+      
+            <!-- /.navbar-static-side -->
+            <div id="page-wrapper">
+                @*<div class="row" style="height:10px">
+                    <div class="col-lg-12" style="height:10px">
+                        <div class="action-buttons">
+                            @if (user != null)
+                            {
+                                @HtmlManager.EditButton(Html.ActionLink("Личный кабинет", "Profile", "User"));
+                                @HtmlManager.AddButton(Html.ActionLink("Выход", "Logout", "User"));
+                            }
+                            else
+                            {
+                                @HtmlManager.EditButton(Html.ActionLink("Вход", "LogIn", "User"));
+                                @HtmlManager.AddButton(Html.ActionLink("Регистрация", "Registration", "User"))
+                            }
+                        </div>
+                    </div>
+                </div>*@
+                @RenderBody()
+            </div>
+            <!-- /#page-wrapper -->
+        </div>
+        @Scripts.Render("~/bundles/DataTablesScripts")
+        @Scripts.Render("~/bundles/ControlPanelScripts")
+
+        <script>
+            $(document).ready(function () {
+                $(".thumb").hover(function () {
+                    $(".bigroundlink .cross").show();
+                });
+            });
+        </script>
+
+        @RenderSection("Scripts", false)
+    </body>
+</html>

@@ -1,0 +1,236 @@
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\DistantLearningSystem.dll.config
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\DistantLearningSystem.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\DistantLearningSystem.pdb
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\Antlr3.Runtime.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\EntityFramework.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\EntityFramework.SqlServer.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\ImageResizer.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\ImageResizer.Mvc.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\Newtonsoft.Json.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Net.Http.Formatting.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.Helpers.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.Http.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.Http.WebHost.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.Mvc.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.Optimization.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.Razor.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.WebPages.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.WebPages.Razor.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\WebGrease.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\EntityFramework.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\EntityFramework.SqlServer.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\ImageResizer.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\ImageResizer.Mvc.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\Newtonsoft.Json.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Net.Http.Formatting.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.Helpers.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.Http.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.Http.WebHost.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.Mvc.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.Optimization.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.Razor.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.WebPages.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\bin\System.Web.WebPages.Razor.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\obj\Debug\DistantLearningSystem.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\ITourist\obj\Debug\DistantLearningSystem.pdb
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\obj\Debug\DistantLearningSystem.csprojResolveAssemblyReference.cache
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\obj\Debug\DistantLearningSystem.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\DistantLearningSystem.dll.config
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\DistantLearningSystem.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\DistantLearningSystem.pdb
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\Antlr3.Runtime.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\EntityFramework.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\ImageResizer.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\ImageResizer.Mvc.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\Newtonsoft.Json.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.Helpers.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.Http.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.Mvc.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.Optimization.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.Razor.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.WebPages.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\WebGrease.dll
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\EntityFramework.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\ImageResizer.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\ImageResizer.Mvc.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\Newtonsoft.Json.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.Helpers.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.Http.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.Mvc.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.Optimization.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.Razor.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.WebPages.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Рейдан\Documents\Projects v2.0\DistantLearningSystemDB\DistantLearningSystem\obj\Debug\DistantLearningSystem.pdb
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\DistantLearningSystem.dll.config
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\DistantLearningSystem.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\DistantLearningSystem.pdb
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\Antlr3.Runtime.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\EntityFramework.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\EntityFramework.SqlServer.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\ImageResizer.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\ImageResizer.Mvc.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\Newtonsoft.Json.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Net.Http.Formatting.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.Helpers.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.Http.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.Http.WebHost.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.Mvc.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.Optimization.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.Razor.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.WebPages.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.WebPages.Razor.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\WebGrease.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\EntityFramework.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\EntityFramework.SqlServer.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\ImageResizer.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\ImageResizer.Mvc.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\Newtonsoft.Json.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Net.Http.Formatting.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.Helpers.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.Http.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.Http.WebHost.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.Mvc.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.Optimization.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.Razor.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.WebPages.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\bin\System.Web.WebPages.Razor.xml
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\obj\Debug\DistantLearningSystem.csprojResolveAssemblyReference.cache
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\obj\Debug\DistantLearningSystem.dll
+C:\Repository\Projects v2.0\DB\DistantLearningSystem\obj\Debug\DistantLearningSystem.pdb
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\DistantLearningSystem.dll.config
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\DistantLearningSystem.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\DistantLearningSystem.pdb
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\Antlr3.Runtime.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\EntityFramework.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\ImageResizer.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\ImageResizer.Mvc.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\Newtonsoft.Json.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.Helpers.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.Http.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.Mvc.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.Optimization.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.Razor.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.WebPages.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\WebGrease.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\EntityFramework.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\ImageResizer.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\ImageResizer.Mvc.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\Newtonsoft.Json.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.Helpers.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.Http.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.Mvc.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.Optimization.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.Razor.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.WebPages.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\obj\Debug\DistantLearningSystem.csprojResolveAssemblyReference.cache
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\obj\Debug\DistantLearningSystem.dll
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\obj\Debug\DistantLearningSystem.pdb
+C:\Users\Рейдан\Desktop\DB\DistantLearningSystem\bin\iTextSharp.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\obj\Debug\DistantLearningSystem.csprojResolveAssemblyReference.cache
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\obj\Debug\DistantLearningSystem.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\DistantLearningSystem.dll.config
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\DistantLearningSystem.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\DistantLearningSystem.pdb
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\Antlr3.Runtime.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\EntityFramework.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\ImageResizer.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\ImageResizer.Mvc.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\iTextSharp.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\Newtonsoft.Json.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Net.Http.Formatting.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.Helpers.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.Http.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.Http.WebHost.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.Mvc.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.Optimization.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.Razor.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.WebPages.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\WebGrease.dll
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\EntityFramework.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\ImageResizer.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\ImageResizer.Mvc.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\Newtonsoft.Json.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Net.Http.Formatting.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.Helpers.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.Http.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.Http.WebHost.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.Mvc.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.Optimization.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.Razor.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.WebPages.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Maxim\Desktop\DB\DistantLearningSystem\obj\Debug\DistantLearningSystem.pdb
+C:\DB\DistantLearningSystem\obj\Debug\DistantLearningSystem.csprojResolveAssemblyReference.cache
+C:\DB\DistantLearningSystem\obj\Debug\DistantLearningSystem.dll
+C:\DB\DistantLearningSystem\bin\DistantLearningSystem.dll.config
+C:\DB\DistantLearningSystem\bin\DistantLearningSystem.dll
+C:\DB\DistantLearningSystem\bin\DistantLearningSystem.pdb
+C:\DB\DistantLearningSystem\bin\Antlr3.Runtime.dll
+C:\DB\DistantLearningSystem\bin\EntityFramework.dll
+C:\DB\DistantLearningSystem\bin\EntityFramework.SqlServer.dll
+C:\DB\DistantLearningSystem\bin\ImageResizer.dll
+C:\DB\DistantLearningSystem\bin\ImageResizer.Mvc.dll
+C:\DB\DistantLearningSystem\bin\iTextSharp.dll
+C:\DB\DistantLearningSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\DB\DistantLearningSystem\bin\Newtonsoft.Json.dll
+C:\DB\DistantLearningSystem\bin\System.Net.Http.Formatting.dll
+C:\DB\DistantLearningSystem\bin\System.Web.Helpers.dll
+C:\DB\DistantLearningSystem\bin\System.Web.Http.dll
+C:\DB\DistantLearningSystem\bin\System.Web.Http.WebHost.dll
+C:\DB\DistantLearningSystem\bin\System.Web.Mvc.dll
+C:\DB\DistantLearningSystem\bin\System.Web.Optimization.dll
+C:\DB\DistantLearningSystem\bin\System.Web.Razor.dll
+C:\DB\DistantLearningSystem\bin\System.Web.WebPages.Deployment.dll
+C:\DB\DistantLearningSystem\bin\System.Web.WebPages.dll
+C:\DB\DistantLearningSystem\bin\System.Web.WebPages.Razor.dll
+C:\DB\DistantLearningSystem\bin\WebGrease.dll
+C:\DB\DistantLearningSystem\bin\EntityFramework.xml
+C:\DB\DistantLearningSystem\bin\EntityFramework.SqlServer.xml
+C:\DB\DistantLearningSystem\bin\ImageResizer.xml
+C:\DB\DistantLearningSystem\bin\ImageResizer.Mvc.xml
+C:\DB\DistantLearningSystem\bin\Newtonsoft.Json.xml
+C:\DB\DistantLearningSystem\bin\System.Net.Http.Formatting.xml
+C:\DB\DistantLearningSystem\bin\System.Web.Helpers.xml
+C:\DB\DistantLearningSystem\bin\System.Web.Http.xml
+C:\DB\DistantLearningSystem\bin\System.Web.Http.WebHost.xml
+C:\DB\DistantLearningSystem\bin\System.Web.Mvc.xml
+C:\DB\DistantLearningSystem\bin\System.Web.Optimization.xml
+C:\DB\DistantLearningSystem\bin\System.Web.Razor.xml
+C:\DB\DistantLearningSystem\bin\System.Web.WebPages.xml
+C:\DB\DistantLearningSystem\bin\System.Web.WebPages.Deployment.xml
+C:\DB\DistantLearningSystem\bin\System.Web.WebPages.Razor.xml
+C:\DB\DistantLearningSystem\obj\Debug\DistantLearningSystem.pdb

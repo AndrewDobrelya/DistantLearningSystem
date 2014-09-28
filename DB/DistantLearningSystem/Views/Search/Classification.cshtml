@@ -1,0 +1,57 @@
+﻿@using DistantLearningSystem.Models.DataModels
+@model Classification
+@{
+    <br/>
+    if (Model == null)
+    {
+        <h2 class="hs">Классификации не обнаружено!</h2>
+        return;
+    }
+
+    ViewBag.Title = String.Format("Классификация по основанию {0}", Model.Base);
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    bool isCurUser = ViewBag.IsCurUser;
+    bool isUserLoggedIn = ViewBag.IsLoggedIn;
+    var uid = Model.StudentId;
+    var classType = Model.ClassificationTypeId;
+    var student = Model.Student != null ? String.Format("{0} {1}", Model.Student.LastName, Model.Student.Name) : "";
+    var _base = Model.Base;
+    var checkState = HtmlManager.GetCheckStatus(Model.Evaulation);
+    var date = String.Format("{0}", Model.AddedDate.ToShortDateString());
+}
+
+<h3 class="hs">Классификация</h3>
+
+@if (isCurUser)
+{
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="action-buttons">
+                @HtmlManager.EditButton(HtmlManager.EditLink(Html, Model))
+                @HtmlManager.DeleteButton(HtmlManager.DeleteLink(Html, Model))
+            </div>
+        </div>
+    </div>
+}
+
+<section>
+    <p style="font-size: large"><span>Основание </span>: <span>@_base</span></p>
+    @if (!String.IsNullOrEmpty(student))
+    {
+        <p style="font-size: large"><span>Добавлено </span>: <span>@Html.ActionLink(student, "StudentInfo", "User", new {userId = uid.GetValueOrDefault()}, null)</span></p>
+    }
+    <p style="font-size: large"><span>Дата добавления </span>: <span>@date</span></p>
+    <p style="font-size: large"><span>Тип </span>: <span>@ClassTypes.GetById(classType).Value</span></p>
+    <p style="font-size: large"><span>Статус проверки </span>: <span>@checkState</span></p>
+</section>
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="action-buttons" style="float:left">
+            @if (isUserLoggedIn)
+            {
+                @HtmlManager.AddButton(Html.ActionLink("Добавить определение", "AddClassification", "Dashboard", new { id = Model.Id }, null))
+            }
+        </div>
+    </div>
+</div>

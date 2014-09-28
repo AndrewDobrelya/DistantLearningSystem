@@ -1,0 +1,21 @@
+﻿@using DistantLearningSystem.Models.DataModels
+@model Department
+
+@{
+    ViewBag.Title = Model.Name;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var faculty = Model.Faculty;
+    var university = faculty.University;
+    var name = Model.CombinedName;
+}
+
+<br />
+<h3 class="hs">@name</h3>
+<br />
+<br />
+<section>
+    <p style="font-size: large"><span>Факультет </span>: <span>@Html.ActionLink(faculty.Name, "Faculty", new { faculty.Id })</span></p>
+    <p style="font-size: large"><span>Университет </span>: <span>@Html.ActionLink(university.Name, "University", new { university.Id })</span></p>
+    <p style="font-size: large"><span>@Html.ActionLink("Группы", "Groups", new { Model.Id }) </span></p>
+    <p style="font-size: large"><span>@Html.ActionLink("Преподаватели", "Lectures", new { Model.Id }) </span></p>
+</section>

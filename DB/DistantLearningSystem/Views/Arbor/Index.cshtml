@@ -1,0 +1,82 @@
+﻿@using DistantLearningSystem.Models.LogicModels.Managers
+@using DistantLearningSystem.Models
+@using System.Web;
+
+<span style=";font-family:Monotype Corsiva;font-size:22px;color:blue;">
+    Переход по клику &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>
+@{
+    ViewBag.Title = "None";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var user = DataManager.DefineUser(Context);
+    if (user != null && user.UserType == DistantLearningSystem.Models.UserType.Student)
+    {
+        <span style=";font-family:Monotype Corsiva;font-size:22px;color:blue;">Добавить связь</span>
+        <span style=";font-family:Monotype Corsiva;font-size:14px;color:blue;">&nbsp;(сначала родитель, потом ребенок)</span>
+        ViewBag.Title = "Student";
+    }
+    if (user != null && user.UserType == DistantLearningSystem.Models.UserType.Lecturer)
+    {
+        <span style=";font-family:Monotype Corsiva;font-size:22px;color:blue;">Оценить связь</span>
+        ViewBag.Title = "Lecturer";
+    }
+
+}
+<br />
+    &nbsp;&nbsp;&nbsp;
+<div class='togglebox'>
+    <input type='checkbox' id='follow'>
+    <label for='follow'><b></b></label>
+</div>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+@{
+    if (user != null)
+    {
+        <div class='togglebox'>
+            <input type='checkbox' onchange='handleClick()' id='linke'>
+            <label for='linke'><b></b></label>
+        </div>
+    }
+}
+<br />
+
+<canvas id="viewport" width="1200" height="800"></canvas>
+
+<script language="javascript" type="text/javascript">
+    document.getElementById('follow').disabled = false;
+
+    var node11 = null;
+    var node12 = null;
+    var node1col;
+    var node2col;
+    var selected_classification;
+    var isfree1 = false;
+    var isfree2 = false;
+
+    var sys = arbor.ParticleSystem()
+    var Classifications = sys.addNode('Classifications', { 'color': '#FF003D', 'shape': 'dot', 'label': 'Классификации', 'mass': 1.0 });
+
+    var AddClassification = sys.addNode('AddClassification', { 'color': 'orange', 'shape': 'dot', 'label': 'Добавить' });
+    sys.addEdge(Classifications, AddClassification, { 'directed': true });
+
+    $.ajax({
+        url: "/Arbor/Classifications", data: {}, success: function (datac) {
+            for (var i = 0; i < datac.Length; i++) {
+                var Classification = sys.addNode(datac.Data[i], { 'color': 'orange', 'shape': 'dot', 'label': datac.Data[i], 'classid': datac.Value[i] });
+                sys.addEdge(Classifications, Classification, { 'directed': true });
+            }
+        }
+    });
+
+    $.ajax({
+        url: "/Arbor/EmptyConcepts", data: {}, success: function (datac) {
+            for (var i = 0; i < datac.Length; i++) {
+                sys.addNode(datac.Data[i], { 'color': 'purple', 'shape': 'rectangle', 'label': datac.Data[i], 'concid': datac.Value[i], 'mass': 1.0 });
+            }
+        }
+    });
+
+    sys.parameters({ stiffness: 100, repulsion: 2400, gravity: true, dt: 0.02 })
+    sys.renderer = Renderer("#viewport");
+</script>

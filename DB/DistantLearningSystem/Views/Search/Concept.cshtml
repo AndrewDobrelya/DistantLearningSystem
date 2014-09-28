@@ -1,0 +1,106 @@
+﻿@using DistantLearningSystem.Models.DataModels
+@model Concept
+@{
+
+    if (Model == null)
+    {
+        <h2>Понятия не обнаружено!</h2>
+        return;
+    }
+
+    ViewBag.Title = Model.Name;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var student = Model.Student;
+    var fio = String.Format("{0} {1}", student.LastName, student.Name);
+    var definitions = Model.Definitions.ToList();
+    bool isCurUser = ViewBag.IsCurUser;
+    var isDefinitionsNotEmpty = definitions.Any();
+    bool isLoggedIn = ViewBag.IsLoggedIn;
+}
+
+@if (isCurUser)
+{
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header fleft">@Model.Name</h1>
+            <div class="action-buttons">
+                @HtmlManager.EditButton(HtmlManager.EditLink(Html, Model))
+                @HtmlManager.DeleteButton(HtmlManager.DeleteLink(Html, Model))
+            </div>
+        </div>
+    </div>
+}
+
+<section>
+    @if (!String.IsNullOrEmpty(Model.ImgSrc))
+    {
+        <div class="user-avatar">
+            <a class="magnifier" href="@HtmlManager.DefineImagePath(Model.ImgSrc)">
+                <div class="" style="margin-top:10px">
+                    @HtmlManager.Image(Model.ImgSrc + "?w=150", ViewBag.Title)
+                </div>
+            </a>
+        </div>
+    }
+
+    @if (!String.IsNullOrEmpty(Model.Abbreviation))
+    {
+        <p style="font-size: large"><span>Аббревиатура </span>: <span>@Model.Abbreviation</span></p>
+    }
+    <p style="font-size: large"><span>Дата добавления </span>: <span>@String.Format("{0} в {1}", Model.AddedDate.ToShortDateString(), Model.AddedDate.ToShortTimeString())</span></p>
+    <p style="font-size: large"><span>Добавлено </span>: <span>@Html.ActionLink(fio, "StudentInfo", "User", new { userId = student.Id }, null)</span></p>
+    <p style="font-size: large"><span>Статус проверки </span>: <span>@HtmlManager.GetCheckStatus(Model.Evaulation)</span></p>
+</section>
+
+@HtmlManager.ProccessResultContainer(ViewBag.Result)
+
+@if (isDefinitionsNotEmpty)
+{
+    <h3>Определения</h3>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Определение </th>
+                                    <th>Дата добавления </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var definition in definitions)
+                                {
+                                    <tr>
+                                        <td>
+                                            @definition.Id
+                                        </td>
+                                        <td>
+                                            @definition.Text
+                                        </td>
+                                        <td>
+                                            @definition.AddedDate.ToShortDateString()
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="action-buttons" style="float:left">
+            @if (isLoggedIn)
+            {
+                @HtmlManager.AddButton(Html.ActionLink("Добавить определение", "AddDefinition", "Dashboard", new { id = Model.Id }, null))
+            }
+        </div>
+    </div>
+</div>
